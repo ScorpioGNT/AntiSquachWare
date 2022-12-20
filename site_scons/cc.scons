@@ -41,6 +41,7 @@ ENV.AppendUnique(
         "-Wno-unused-variable",
         # "-Wno-stringop-overread",
         # "-Wno-stringop-overflow",
+		"-Wno-unused-parameter"
     ],
     CPPDEFINES=[
         "_GNU_SOURCE",
